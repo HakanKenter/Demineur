@@ -1,0 +1,46 @@
+Créer et afficher les cellules vides
+
+La Fonction permettant de créer des cellules, doit avoir 2 paramètre : Le nombre de colonne et le nombre de ligne
+
+
+
+Positionner grâce a une fonction aléatoirement 10% de bombe sur le board.
+
+On va avoir besoin s'il sont visible ou non leurs pos, s'il y a une bombe, s'il y a un 
+nombre et si oui quel nombre
+
+On va avoir besoin de leurs emplacement:
+- POS x et y 
+- visible ou pas
+- Bombe ou pas 
+- Nombre ? si oui quel nombre
+
+Donner un id unique a chacun des cellules
+column * row * 0.10
+
+generer un nombre aléatoire de celulle 
+générer autant de  nombre aléatoire qu'il y a de cellule a faire
+
+Une fois toutes les cellule aléatoire générer il faudra juste les
+mettres à jour dans le DOM
+
+is true alors affiche
+
+*****____________________________________________________________________________________*****
+
+Il faut placer les numéro autour des bombes.
+Chaque cases contenant une bombes doit avoir un numéro autour de lui 
+Ici on s'occupe que du coté gauche des bombes
+
+Les Etapes:
+- 
+
+
+*****____________________________________________________________________________________*****
+
+- Quand on clique sur un bouton, le rendre visible
+- Quand il s'agi d'un chiffre l'afficher
+- Quand il s'agit d'une bombe afficher toutes les autres bombes
+- Quand il s'agit d'une case vide, afficher toutes les autres cases 
+vides autour
+
